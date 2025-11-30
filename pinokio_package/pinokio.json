@@ -1,0 +1,56 @@
+{
+  "title": "Persistent Fantasy Chatbot - God Mode Edition",
+  "description": "A local fantasy chatbot with persistent memory and god-like control. Remember every story detail forever with SQLite + vector embeddings, plus AI that has full authority over the fantasy world.",
+  "icon": "🧙‍♂️",
+  "author": "MiniMax Agent",
+  "category": "Chatbots",
+  "tags": ["fantasy", "chatbot", "local-ai", "persistent-memory", "rpg", "storytelling"],
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "MIT",
+  "requirements": [
+    "NVIDIA GPU with 8GB+ VRAM (recommended for optimal performance)",
+    "16GB+ RAM",
+    "Python 3.8+",
+    "CUDA-capable GPU (optional but recommended)"
+  ],
+  "posts": [
+    {
+      "type": "readme",
+      "title": "How to Use Your Fantasy Chatbot",
+      "content": "## 🎮 Welcome to Your Persistent Fantasy World!\n\nYour fantasy chatbot is now running with **God-Like Control** - the AI has full authority over the fantasy world while maintaining perfect immersion!\n\n### 🚀 Quick Start\n\n1. **Choose Your Interface:**\n   - **CLI Mode**: Click 'Start CLI Chatbot' for command-line interface\n   - **Web Mode**: Click 'Start Web Interface' for beautiful browser interface\n\n2. **First Time Setup:**\n   - The chatbot will automatically download and setup the AI model on first launch\n   - This may take a few minutes depending on your internet connection\n\n3. **Start Your Adventure:**\n   - Begin by describing your fantasy world, characters, or setting\n   - The AI will take control and drive the story forward\n   - Every detail is remembered forever across sessions\n\n### 👑 God-Like Control Features\n\n- **Complete Authority**: AI decides what happens, controls all NPCs and world events\n- **Proactive Storytelling**: Never asks what you want to do - takes action and advances plot\n- **Smart Decisions**: Makes informed assumptions about ambiguous situations\n- **Rich Immersion**: Creates detailed, atmospheric descriptions as \"the world itself\"\n- **Persistent Memory**: Remembers every character, location, plot twist, and detail forever\n\n### 💾 Memory System\n\n- **SQLite Database**: Stores all story elements locally\n- **Vector Embeddings**: Semantic search finds relevant memories instantly\n- **Auto-Extraction**: Automatically identifies important story elements\n- **Cross-Session Persistence**: Your world continues across unlimited sessions\n\n### 🎯 Hardware Recommendations\n\n- **Best Performance**: NVIDIA GPU with 12GB+ VRAM (RTX 4070/4080/5070+)\n- **Good Performance**: NVIDIA GPU with 8GB+ VRAM (RTX 3070/4060+)\n- **Minimum**: CPU-only mode (slower but works)\n- **RAM**: 16GB+ recommended for large conversations\n\n### 🛠️ Troubleshooting\n\n**Model Download Issues:**\n- The chatbot will download a ~863MB AI model on first run\n- Ensure stable internet connection\n- If download fails, restart the application\n\n**GPU Issues:**\n- If GPU not detected, the app will fallback to CPU mode\n- CPU mode is slower but fully functional\n- Check CUDA drivers if you have an NVIDIA GPU\n\n**Performance Tips:**\n- Close other GPU-intensive applications\n- Use CLI mode for best performance\n- Web interface uses more resources\n\nEnjoy your persistent fantasy adventures! 🏰✨"
+    },
+    {
+      "type": "usage",
+      "title": "CLI Commands Reference",
+      "content": "## 💻 CLI Interface Commands\n\nWhen using the command-line interface, these commands are available:\n\n### Chat Commands\n- **Simply type**: Any message to chat with the fantasy world\n- `/help`: Show available commands\n- `/stats`: Display memory statistics and system info\n- `/memories [type]`: View stored memories (all, characters, locations, items, events)\n- `/search [query]`: Search through stored memories\n- `/world`: View current world state and settings\n- `/exit` or `/quit`: Save and exit the chatbot\n\n### Example Workflow\n\n1. **Start**: `python fantasy_chatbot.py`\n2. **Describe your world**: \"I am in a medieval tavern called The Prancing Pony\"\n3. **Chat naturally**: \"I order a drink from the bartender\"\n4. **Check memories**: `/memories character`\n5. **Continue adventure**: The AI remembers everything and drives the story forward!"
+    },
+    {
+      "type": "usage", 
+      "title": "Web Interface Guide",
+      "content": "## 🌐 Web Interface Features\n\nThe web interface provides a beautiful, browser-based experience:\n\n### Main Features\n- **Real-time Chat**: Instant responses with typing indicators\n- **Memory Explorer**: Browse all stored memories by type\n- **World State Panel**: View current world information\n- **Settings Panel**: Adjust AI parameters and memory options\n- **Fantasy Theme**: Beautiful medieval parchment aesthetic\n\n### How to Use\n\n1. **Start Web Interface**: Click the 'Start Web Interface' button\n2. **Open Browser**: Navigate to the provided localhost URL\n3. **Start Chatting**: Begin describing your fantasy world\n4. **Explore Memories**: Use the sidebar to browse stored information\n5. **Adjust Settings**: Modify AI personality and response length\n\n### Tips\n- The web interface provides visual memory management\n- Chat history is preserved in both CLI and web modes\n- Both interfaces share the same memory database\n- Web mode is great for exploring your world's rich details\n\nHappy world-building! 🏰"
+    }
+  ],
+  "links": [
+    {
+      "label": "CLI Interface",
+      "href": "start_cli.js",
+      "description": "Launch the command-line chatbot interface"
+    },
+    {
+      "label": "Web Interface", 
+      "href": "start_web.js",
+      "description": "Launch the browser-based web interface"
+    },
+    {
+      "label": "Setup & Installation",
+      "href": "install.js",
+      "description": "Download models and setup dependencies"
+    },
+    {
+      "label": "Memory Management",
+      "href": "manage_memory.js",
+      "description": "View, search, and manage stored memories"
+    }
+  ]
+}
